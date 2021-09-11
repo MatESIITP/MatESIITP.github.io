@@ -100,7 +100,7 @@ button {
 header {
   min-height: 100vh;
   width: 100%;
-  background: url("Assets/team.png") no-repeat top center / cover;
+  background: url("Assets/team.jpg") no-repeat top center / cover;
   position: relative;
 }
 
@@ -136,6 +136,10 @@ header {
   float: left;
   width: 50%;
     display:inline-block;
+}
+
+.column3 {
+  width: 100%;
 }
 
 .row1:after {
@@ -206,6 +210,18 @@ header {
     margin-top: 50px;
 }
 
+.row3:after {
+  display: block;
+    justify-content: center;
+}
+.column3 {
+  float: left;
+  width: 50%;
+    margin-bottom: 40px;
+    display:flex;
+    justify-content: center;
+}
+
 .name {
     font-size: 30px;
     font-weight: bolder;
@@ -220,8 +236,11 @@ header {
     font-size: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-weight: bolder;
     color: #FEA501;
+    text-align: center;
 }
 /* Footer Section */
 
@@ -236,6 +255,7 @@ header {
   content: "";
   clear: both;
 }
+
 
 footer {
     text-align: center;
