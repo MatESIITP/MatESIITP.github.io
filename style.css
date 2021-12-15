@@ -164,20 +164,23 @@ header {
 }
 .column3 {
     float: left;
-    width: 33.33%;
-    display:inline-block;
+    text-align: center;
+    width: 100%;
+    /* display:inline-block; */
 }
 .FB{
     margin-left: 100px;
 }
 .images{
-    width: 175%;
-    margin-left: 180px;
-}
-.coming{
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+  }
+/* .coming{
     margin-top: 50px;
     margin-left: 20px;
-}
+} */
 .row2:after {
   content: "";
   clear: both;
@@ -461,6 +464,10 @@ ul {
     .Events{
         height: 100%;
     }
+
+    /* .images{
+      margin-left: 75px;
+    } */
 }
 
 @media only screen and (max-width: 520px) {
