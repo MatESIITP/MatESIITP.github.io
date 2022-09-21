@@ -196,11 +196,25 @@ header {
 .column2 {
   float: left;
   width: 33.33%;
-    margin-bottom: 40px;
-    display:flex;
-    justify-content: center;
+  margin-bottom: 40px;
+  display:flex;
+  justify-content: center;
+}
+.column2t {
+  float: center;
+  width: 100%;
+  margin-bottom: 40px;
+  display:flex;
+  justify-content: center;
+}
+.row2t:after {
+  content: "";
+  display: flex;
+  margin: auto;
+  clear: both;
 }
 .row2:after {
+  width: 100%;
   content: "";
   display: block;
   clear: both;
