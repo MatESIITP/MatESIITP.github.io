@@ -46,7 +46,8 @@ button {
 }
 
 .logo{
-    width: 200px;
+  margin-top: 10px;
+  width: 120px;
 }
 
 .hamburger-menu {
