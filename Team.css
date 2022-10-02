@@ -18,7 +18,7 @@ button {
 .container {
   width: 100%;
   background-color: #2A0001;
-  background-image: linear-gradient(135deg, #24427A 0%, #A4EEFE 74%);
+  background-image: linear-gradient(135deg, #fdfdfd 0%, #fdffff 74%);
   /* overflow-x: hidden; */
   transform-style: preserve-3d;
 }
@@ -405,6 +405,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateY(-150px);
 }
 
 ul {
@@ -413,7 +414,7 @@ ul {
 
 .links a {
   text-decoration: none;
-  color: #2A0001;
+  color: #FEA501;
   padding: 0.7rem 0;
   display: inline-block;
   font-size: 1.5rem;
@@ -427,7 +428,7 @@ ul {
 }
 
 .links a:hover {
-  color: #fff;
+  color: rgb(188, 118, 37);
 }
 
 .container.active .links a {
