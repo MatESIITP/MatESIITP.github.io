@@ -178,6 +178,13 @@ header {
     margin-right: 50px;
    
   }
+  @media only screen and (max-width: 768px) {
+    .images {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  } 
 /* .coming{
     margin-top: 50px;
     margin-left: 20px;
@@ -197,6 +204,7 @@ header {
     font-size: 55px;
     font-weight: bolder;
     margin-bottom: 15px;
+    margin-top: 15px;
     color: #FEA501;
     text-shadow: -4px 1px #2A0001;
 }
