@@ -1,202 +1,440 @@
+<!--------------------------------------------------------------------------------->
+<!--HOME PAGE-->
+<!--------------------------------------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MatES</title>
-    
+
     <!-- Adding Meta tags -->
-    <meta name="description" content="Materials Engineering Society (MatES), IIT PATNA is an association of UG & PG students, college faculty and staff of the Department of Metallurgical and Materials Engineering of IIT Patna.">
-    <meta name="keywords" content="IITP iitp Metallurgy iit patna materials engineering department of Metallurgical ranking iit bihta metals courses researches projects events">
-    <!-- <meta http-equiv="refresh" content="30"> -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Official website of MatES IIT Patna" />
+    <meta
+      name="keywords"
+      content="IITP, MatES, Materials, Metallurgy IIT Patna, iitp, iit patna, engineering department of Metallurgy"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="shortcut icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6d80484088.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="/img/Mlogo.webp" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body onload="myFunction()">
-    <!-- Adding Alt attribute for optimizing images-->
-      <div id="loading">
-      </div>
-      
-    <div class="container">
-      <div class="navbar">
-        <div class="menu">
-          <a href="#"><img src="Assets/Mlogo.png" class="logo" alt="MatES"></a>
-          <div class="hamburger-menu">
-            <div class="bar"></div>
-          </div>
-        </div>
-      </div>
 
-      <div class="main-container">
-        <div class="main">
-          <header>
-            <div class="overlay">
-              <div class="inner">
-                <h2 class="title">MatES</h2>
-                <p class="text">
-                  Materials Engineering Society (MatES), IIT PATNA is an association of UG & PG students, college faculty and staff of the Department of Metallurgical and Materials Engineering of IIT Patna.
-                </p>
-                <a href="#about"><button class="btn">ReaD MORE</button></a>
-              </div>
-            </div>
-          </header>
-            
-        </div>
+  <body>
+    <div id="preloader"></div>
+    <!-- Header section start -->
+    <header class="header-area" id="navbar">
+      <a href="index.html" class="logo-area">
+        <img src="img/Mlogo.webp" alt="logo" />
+      </a>
 
-        <div class="shadow one"></div>
-        <div class="shadow two"></div>
-      </div>
+      <div class="nav-switch"><i class="fa fa-bars"></i></div>
 
-      <div class="links">
+      <nav class="nav-menu">
         <ul>
-          <li>
-            <a href="#" style="--i: 0.05s;">Home</a>
-          </li>
-          <li>
-            <a href="#events" style="--i: 0.1s;">EVENTS</a>
-          </li>
-          <li>
-            <a href="Team.html" style="--i: 0.15s;">TEAM</a>
-          </li>
-
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#about">ABOUT US</a></li>
+          <li><a href="index.html#events">EVENTS</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="team.html">TEAM</a></li>
         </ul>
-      </div>
-        
-    </div>
-      
-      <div class="About" id="about">
-          <img src="Assets/Group%2071.png" class="AR1" alt="MatES About">
-          <img src="Assets/About.png" class="AR2" alt="IIT Patna Metallurgical and Materials Department">
-      </div>
-      
-      <div class="Events" id="events">
-          <div class="row2">
-              <div class="column2">
-                  <p class="Headings">Events</p>
-                  <div class="coming">
-                      <div class="row2">
-                      <div class="column3">                          
-                          <img src="Assets/mates poster final.jpg" class="images" alt="Event">
-                      </div>
-                  </div>
-                  </div>
-              </div>
-              <div class="column4 FB">
-                  <p class="Headings">Updates</p>
-                  <div class="facebook">
-                      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMaterials-Engineering-Society-IIT-PATNA-101133861842733&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
-      <div class="contact-us">
-          <div class="bg">
-              <img src="Assets/gif.gif" class="gif" alt="MatES Logo Animation">
-              <div class="centered">
-                  WE STAND AHEAD IN QUALITY
-                  <button  class="btn"> <a href="#contact" style ="text-decoration: none;color: white; " >Contact US</a></button>
-              </div>
-          </div>
-      </div>
-      
-      <!-- <footer id="contact">
-        <div class="row3">
-            <div class="column4">
-                <p class="Heading">Address</p>
-                <p>
-                    <img src="Assets/Icon%20material-location-on.png" class="onesec"> IIT Patna
-                </p>
-            </div>
-            <div class="column4">
-                <p class="Heading">Contact</p>
-                <p>
-                  <a href="mailto:mates.official.1920@gmail.com"  style ="text-decoration: none;color: #fea501"><img src="Assets/Icon%20feather-mail.png" class="onesec">mates.official.1920@gmail.com </a>
-                </p>
-                <p>
-                    <a href="tel:8889090900"  style ="text-decoration: none;color: #fea501"><img src="Assets/Icon%20awesome-phone-alt.png" class="onesec1">8889090900</a>
-                </p>
-            </div>
-            <div class="column4">
-                <p class="Heading">Quick Links</p>
-                <div class="Links">
-                    <a href="#"><p>Home</p></a>
-                    <a href="#events"><p>Events</p></a>
-                    <a href="Team.html"><p>Team</p></a>
-                </div>
-            </div>
-            <div class="column4">
-                <p class="Heading">Social</p>
-                    <a href="https://www.facebook.com/Materials-Engineering-Society-IIT-PATNA-101133861842733"><img src="Assets/Icon%20awesome-facebook.png" width="40"></a>
-                    <a href="https://www.instagram.com/mates__iitp"><img src="Assets/Icon%20awesome-instagram.png" width="40"></a>
-            </div>
+      </nav>
+    </header>
+    <!-- Header section end -->
+
+    <!-- Hero section start -->
+    <section class="hero-section">
+      <div id="hero">
+        <div
+          class="back_img"
+          style="background-image: url('img/landing.jpg')"
+        ></div>
+        <div class="caption">
+          <h1 data-aos="fade-up" data-aos-delay="500">MatES, IIT Patna</h1>
+          <h2 data-aos="fade-right" data-aos-delay="500">
+            Materials Engineering Society (MatES), IIT PATNA is an association
+            of UG & PG students, college faculty and staff of the Department of
+            Metallurgical and Materials Engineering of IIT Patna.
+          </h2>
+
+          <a
+            href="#events"
+            class="btn-get-started"
+            data-aos="fade-left"
+            data-aos-delay="800"
+            >View Events</a
+          >
         </div>
-    </footer>
-       -->
-   <footer class="footer-distributed" id="contact">
+      </div>
+    </section>
+    <!-- Hero section end -->
 
-			<div class="footer-left">
-        <div class="footer-left-items">
-          <img src="Assets/Mlogo.png" class="footer-logo" border="1" alt="MatES">
-          <div class="footer-left-title">
-            <h2>Mates Society</h2>
-            <p>Metallurgical & Materials Department</p>
+    <!-- Main section start --------------------------------------------------------------->
+    <main id="main" style="background-color: #000">
+      <!-- About section start -->
+      <section id="about" class="cta-section pt100 pb50">
+        <div class="container" style="max-width: 1279px">
+          <div
+            class="p-lg-5 cta-content"
+            style="flex: auto"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <div
+              style="height: 1px; background-color: #dcbf30; margin-bottom: 1%"
+            ></div>
+            <h2
+              class="sp-title"
+              style="font-size: 42px; margin-bottom: 10px; text-align: center"
+            >
+              About Us
+            </h2>
+
+            <div
+              style="height: 1px; background-color: #dcbf30; margin-bottom: 3%"
+            ></div>
+            <p>
+              Materials Engineering Society (MatES) is an official student body
+              of the Materials Engineering Department at the Indian Institute of
+              Technology Patna (IIT Patna). It was established in 2009 with the
+              aim of promoting the field of materials science and engineering
+              among students and researchers. MatES organizes various technical
+              and non-technical events throughout the year to provide a platform
+              for students to showcase their skills and knowledge in the field
+              of materials engineering. Some of the events organized by MatES
+              include guest lectures, workshops, industrial visits, and
+              technical competitions. <br /><br />
+              The society also provides a platform for students to participate
+              in various national and international conferences and seminars
+              related to materials science and engineering. MatES conducts
+              various training programs and workshops to enhance the technical
+              skills and knowledge of the students. MatES, IIT Patna, has been
+              successful in creating awareness about the field of materials
+              science and engineering among students and researchers. The
+              society has played a key role in promoting research and
+              development in the field of materials engineering. In conclusion,
+              MatES at IIT Patna has been instrumental in promoting the field of
+              materials science and engineering among students and researchers.
+              The society has provided a platform for students to showcase their
+              skills and knowledge and has encouraged them to participate in
+              various technical and non-technical events.
+            </p>
+            <div class="caption">
+              <a
+                href="https://linktr.ee/stc.iitp"
+                target="_blank"
+                class="btn-get-started"
+                data-aos="fade-up"
+              >
+                Explore More
+              </a>
+            </div>
           </div>
-       </div>
-				<p class="footer-links">
-					<a href="#" class="link-1">Home</a>
-					
-					<a href="#about">About</a>
-					
-					<a href="#events">Events</a>
+        </div>
+      </section>
+      <!-- About section end -->
 
-					<a href="Team.html">Team</a>
+      <!--Events Section start-->
+      <section id="events" class="cta-section pt100 pb50">
+        <div class="container" style="max-width: 1279px">
+          <div
+            class="p-lg-5 cta-content"
+            style="flex: auto"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <div
+              style="height: 1px; background-color: #dcbf30; margin-bottom: 1%"
+            ></div>
+            <h2
+              class="sp-title"
+              style="font-size: 42px; margin-bottom: 10px; text-align: center"
+            >
+              Our Past Events
+            </h2>
 
-				</p>
+            <div
+              style="height: 1px; background-color: #dcbf30; margin-bottom: 3%"
+            ></div>
+            <div class="row">
+              <figure class="snip0016" data-aos="fade-up">
+                <img src="img/first.jpeg" alt="sample41" />
+                <figcaption>
+                  <h4>Material Science Exhibition and Materials Quiz</h4>
+                  <p>
+                    A milestone in club's functioning where a quiz based on
+                    elementary level material science for school students and an
+                    exhibition demonstrating interesting experiments and the
+                    concepts behind them was conducted.
+                  </p>
+                  <!--<a href="#"></a>-->
+                </figcaption>
+              </figure>
 
-				<p class="footer-copyright">Mates Society © 2021</p>
-			</div>
+              <figure class="snip0016" data-aos="fade-up" data-aos-delay="200">
+                <img src="img/second.jpeg" alt="sample42" />
+                <figcaption>
+                  <h4>MatEX: Fresher's Event</h4>
+                  <p>
+                    It was a part of 'HELLO WORLD' (Orientation of technical
+                    clubs for freshers), which introduced freshers to the club
+                    events and its working. The presentation also involved
+                    interaction with alumini through google meet.
+                  </p>
+                </figcaption>
+              </figure>
 
-			<div class="footer-center">
+              <figure class="snip0016" data-aos="fade-up" data-aos-delay="400">
+                <img src="img/third.jpeg" alt="sample43" />
+                <figcaption>
+                  <h4>MatES Trivia: Quiz</h4>
+                  <p>
+                    A quiz organised as a part of 'HELLO WORLD' exclusively for
+                    freshers which included various types of questions including
+                    text and picture formats.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Events Section end-->
 
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>Indian Institute of Technology, Patna,</span> Bihta, Bihar 801106</p>
-				</div>
+      <!-- Gallery section start -->
+      <section class="cta" style="margin-top: 50px">
+        <h1>WE STAND AHEAD IN QUALITY</h1>
+        <a href="gallery.html" class="btn-get-started" data-aos="fade-right"
+          >VIEW GALLERY</a
+        >
+      </section>
+    </main>
+    <!--MAIN section ends----------------------------------------------------------------->
 
-				<div>
-					<i class="fa fa-phone"></i>
-					<p> <a href="tel:8889090900"  style ="text-decoration: none;">8889090900</a></p>
-				</div>
+    <!-- Footer section start -->
+    <footer>
+      <!-- Grid container -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="brief-info col-lg-4 col-md-12 col-sm-12">
+            <img
+              loading="lazy"
+              src="./img/Mlogo.webp"
+              alt="white logo"
+              width="200"
+            />
+            <p>
+              Materials Engineering Society (MatES), IIT PATNA is an association
+              of UG & PG students, college faculty and staff of the Department
+              of Metallurgical and Materials Engineering of IIT Patna.
+            </p>
 
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:mates@iitp.ac.in"  style ="text-decoration: none;">mates@iitp.ac.in</a></p>
-				</div>
+            <div class="social-icons col-lg-4 col-md-12 col-sm-12">
+              <h5>Follow Us!</h5>
+              <ul class="social-network social-circle">
+                <li>
+                  <a
+                    href="https://www.facebook.com/MatES.IITP"
+                    class="fa fa-facebook"
+                    title="Facebook"
+                    target="_blank"
+                    ><i class="icofont-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/mates__iitp/?hl=en"
+                    class="fa fa-instagram"
+                    title="Instagram"
+                    target="_blank"
+                    ><i class="icofont-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/mates-materials-engineering-society-iit-patna/mycompany/"
+                    class="fa fa-linkedin"
+                    title="Linkedin"
+                    target="_blank"
+                    ><i class="icofont-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-			</div>
+          <div class="link-section row col-lg-4 col-md-12 col-sm-12">
+            <!--Grid column-->
+            <div class="links col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h6 class="text-uppercase">Quick Links</h6>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="index.html" id="text-dark">MatES</a>
+                </li>
+                <li>
+                  <a href="#about" id="text-dark"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#events"
+                    id="text-dark"
+                    >Events</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="gallery.html"
+                    id="text-dark"
+                    >Gallery</a
+                  >
+                </li>
+                <li><a href="team.html" id="text-dark">Team</a></li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
 
-			<div class="footer-right">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <div id="map">
+              <h6 class="text-uppercase">Visit Our Campus</h6>
+              <iframe
+                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14399.37835508978!2d84.8434447170254!3d25.54355318850096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398d567a193702ff%3A0xc9c527c7faec3056!2sIIT+Patna+Administration+Block!5e0!3m2!1sen!2sin!4v1539177184721"
+                width="350px"
+                height="300px"
+                frameborder="0"
+                style="border-radius: 5px"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
 
-				<p class="footer-company-about">
-					<span>About Us</span>
-					Materials Engineering Society (MatES), IIT PATNA is an association of UG & PG students, college faculty and staff of the Department of Metallurgical and Materials Engineering of IIT Patna.
-				</p>
+        <!-- Copyright -->
+        <!--Grid row-->
+        <div class="copyright-text row">
+          <div class="credits col-sm-12">
+            <span style="font-weight: 100"
+              >&copy; Copyright
+              <span style="font-weight: 600">MatES, IIT Patna.</span></span
+            >
+            <span class="credit-N-M"
+              >Developed by MatES Technical Committee.&#9829;</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer section end -->
 
-				<div class="footer-icons">
+    <!--JavaScript-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script>
+      window.onload = () => {
+        document.body.addEventListener("scroll", () => {
+          if (
+            document.body.scrollTop > 100 ||
+            document.documentElement.scrollTop > 100
+          ) {
+            $(".header-area").css({
+              backgroundColor: "rgba(255, 255, 255, 1)",
+              backdropFilter: "blur(2rem)",
+              boxShadow: "0 0 1rem 0 hsl(0deg 0 % 100 % / 10%)",
+              border: "1px solid rgba(0, 0, 0, .18)",
+            });
+          } else {
+            $(".header-area").css({
+              backgroundColor: "rgba(255, 255, 255, 1)",
+              backdropFilter: "blur(0rem)",
+              boxShadow: "none",
+              border: "none",
+            });
+          }
+        });
+        var currentPageUrl = window.location.href;
+        var navLinks = document.querySelectorAll(".nav-menu ul li a");
 
-					<a href="https://www.facebook.com/Materials-Engineering-Society-IIT-PATNA-101133861842733"><i class="fa fa-facebook"></i></a>
-					<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-					<a href="https://www.linkedin.com/in/mates-iit-patna-735573200/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://www.instagram.com/mates__iitp"><i class="fa fa-instagram"></i></a>
+        for (var i = 0; i < navLinks.length; i++) {
+          var link = navLinks[i];
+          if (link.href === currentPageUrl) {
+            link.parentNode.classList.add("active");
+            break;
+          } else {
+            if (link.parentNode.classList.contains("active")) {
+              link.parentNode.classList.remove("active");
+            }
+          }
+        }
+      };
+    </script>
+    <!--====== Javascripts & Jquery ======-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.owl-filter.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
-				</div>
+    <script>
+     /* $(document).ready(function(){   
+        window.setTimeout('fadeout();', 0);
+        
+    });
 
-			</div>
+    function fadeout(){
+        $('#preloader').delay(2000).fadeOut('slow', function() {
+           $('.notLoaded').removeClass('notLoaded');
+        });
+    }*/
 
-		</footer>
-
-    <script src="app.js"></script>
+    const preloader = document.querySelector('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }
+    </script>
   </body>
 </html>
