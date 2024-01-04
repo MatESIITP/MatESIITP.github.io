@@ -1,9 +1,9 @@
 <div align="center">
 
 [![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/MatESIITP)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/MatESIITP/new-website)
-![Stars](https://img.shields.io/github/stars/MatESIITP/new-website?style=flat&logo=github)
-![Forks](https://img.shields.io/github/forks/MatESIITP/new-website?style=flat&logo=github)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/MatESIITP/MatESIITP.github.io)
+![Stars](https://img.shields.io/github/stars/MatESIITP/MatESIITP.github.io?style=flat&logo=github)
+![Forks](https://img.shields.io/github/forks/MatESIITP/MatESIITP.github.io?style=flat&logo=github)
 
 </div>
 
@@ -16,12 +16,12 @@ Materials Engineering Society (MatES), IIT PATNA is an association of UG & PG st
 
 ## **Getting Started**
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MatESIITP/new-website?logo=github)](https://MatESIITP/new-website) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MatESIITP/new-website?color=bluevoilet&logo=github)](https://github.com/MatESIITP/new-website/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/MatESIITP/new-website?logo=github)](https://github.com/MatESIITP/new-website)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MatESIITP/MatESIITP.github.io?logo=github)](https://MatESIITP/MatESIITP.github.io) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MatESIITP/MatESIITP.github.io?color=bluevoilet&logo=github)](https://github.com/MatESIITP/MatESIITP.github.io/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/MatESIITP/MatESIITP.github.io?logo=github)](https://github.com/MatESIITP/MatESIITP.github.io)
 
 For the quick start, you can follow the steps below:
 
-1. Star <a href="https://github.com/MatESIITP/new-website" title="this">this</a> repository.
-2. Fork <a href="https://github.com/MatESIITP/new-website" title="this">this</a> repository.
+1. Star <a href="https://github.com/MatESIITP/MatESIITP.github.io" title="this">this</a> repository.
+2. Fork <a href="https://github.com/MatESIITP/MatESIITP.github.io" title="this">this</a> repository.
 3. Clone the **forked** repository.
 
 ```yml
@@ -62,7 +62,7 @@ git push -u origin <your_branch_name>
 
 8. Create a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `main`.
 
-9. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/MatESIITP/new-website" title="new-website">MatES IITP</a>.
+9. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/MatESIITP/MatESIITP.github.io" title="new-website">MatES IITP</a>.
 
 ## ✨ Authors
 
