@@ -25,13 +25,13 @@ For the quick start, you can follow the steps below:
 3. Clone the **forked** repository.
 
 ```yml
-git clone https://github.com/<your-github-username>/new-website
+git clone https://github.com/<your-github-username>/MatESIITP.github.io
 ```
 
 3. Navigate to the project directory.
 
 ```py
-cd new-website
+cd MatESIITP.github.io
 ```
 
 4. Create a new branch.
