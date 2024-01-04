@@ -8,7 +8,7 @@
 </div>
 
 # MatES IIT Patna
- Welcome to Materials Engineering Society (MatES)
+ Welcome to Materials Engineering Society (MatES)<br>https://matesiitp.github.io/
 
 ## About
 
