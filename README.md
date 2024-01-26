@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/github/languages/count/MatESIITP/MatESIITP.github.io?style=for-the-badge&color=brightgreen" />
   <img src="https://img.shields.io/github/repo-size/MatESIITP/MatESIITP.github.io?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues-closed-raw/MatESIITP/MatESIITP.github.io?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/MatESIITP/MatESIITP.github.io?style=for-the-badge" />
   <img src="https://img.shields.io/github/forks/MatESIITP/MatESIITP.github.io?style=for-the-badge" />
  </p>
 </div>
